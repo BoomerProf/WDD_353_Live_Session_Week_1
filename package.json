@@ -1,0 +1,23 @@
+{
+  "name": "wdd_353_live_session_week_1",
+  "version": "1.0.0",
+  "description": "NodeJS Example",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJs",
+    "API"
+  ],
+  "author": "Eric Clarke",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
