@@ -3,6 +3,7 @@ const router = require('../api/routes/router');
 
 const app = express();
 app.use(express.json());
+// test if server is up
 app.get('/', (req, res, next) => {
   res.status(200).json({
     message: 'Server is up',
